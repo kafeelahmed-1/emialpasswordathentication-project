@@ -1,0 +1,64 @@
+@keyframes fadeIn {
+    0% {
+      opacity: 0; /* Start fully transparent */
+      transform: translateY(20px); /* Slightly move down */
+    }
+    100% {
+      opacity: 1; /* End fully visible */
+      transform: translateY(0); /* Move back to original position */
+    }
+  }
+  
+  .hero {
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 40px;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    animation: fadeIn 1.5s ease-in-out; /* Apply the fade-in animation */
+  }
+  
+  .hero-image img {
+    width: 400px; /* Increased size */
+    border-radius: 8px;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px; /* Increase this value as needed */
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    color:#fff; /* Adjust color for better visibility */
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+    

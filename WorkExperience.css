@@ -1,0 +1,78 @@
+.work-experience {
+    padding: 20px 40px; /* General padding for the section */
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 20px 0;
+    text-align: center; /* Centers the heading */
+  }
+  
+  .work-experience h2 {
+    margin-bottom: 30px; /* Space between heading and content */
+    padding-top: 20px; /* Adds space at the top of the heading */
+  }
+  
+  .experience-item {
+    padding: 15px;
+    background-color: transparent;
+    border-left: 4px solid #007BFF;
+    width: 300px; /* Width for each experience item */
+    max-width: 300px; /* Sets a max width */
+  }
+  
+  .experience-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .experience-item p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  /* Slider Dots */
+  .slick-dots {
+    bottom: 10px; /* Position of the dots */
+  }
+  
+  .slick-dots li {
+    width: 20px; /* Increase dot size */
+    height: 20px; /* Increase dot size */
+  }
+  
+  .slick-dots li button {
+    font-size: 0; /* Hide the button text */
+    width: 20px; /* Increase width */
+    height: 20px; /* Increase height */
+    border-radius: 50%; /* Make dots circular */
+    background-color: #ccc; /* Default color for dots */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #007BFF; /* Color for active dot */
+  }
+  
+  .slick-dots li button:hover {
+    background-color: #0056b3; /* Color on hover */
+  }
+
+
+  .slick-prev, .slick-next {
+    font-size: 40px; /* Increase font size of arrow icons */
+    color: #007BFF; /* Change color to match your theme */
+    width: 50px; /* Increase width of the buttons */
+    height: 50px; /* Increase height of the buttons */
+    line-height: 50px; /* Center the icons vertically */
+    z-index: 1; /* Ensure arrows are above other elements */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .slick-prev {
+    left: 10px; /* Position the left arrow */
+  }
+  
+  .slick-next {
+    right: 10px; /* Position the right arrow */
+  }
+  
+ 

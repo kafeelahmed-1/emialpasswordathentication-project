@@ -1,0 +1,60 @@
+/* Base styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li:hover {
+    color: #555;
+  }
+  
+  .toggle-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Light mode styles */
+  .light {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+  }
+  
+  /* Dark mode styles */
+  .dark {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+  
+  .dark .toggle-btn {
+    background-color: #444;
+  }
+  
+  .dark .toggle-btn:hover {
+    background-color: #222;
+  }
+  

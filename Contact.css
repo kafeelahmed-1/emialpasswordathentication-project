@@ -1,0 +1,65 @@
+.contact {
+    padding: 60px 60px;
+  
+    background-color: rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-evenly; 
+    gap:20rem;/* Aligns the left and right sections */
+  }
+  
+  .contact-info {
+    flex: 1; /* Allow this div to take up more space */
+    margin-right: 20px; /* Space between info and form */
+  }
+  
+  .contact-card {
+    background-color: white;
+    border: 1px solid #ddd; /* Light border for cards */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; /* Space between cards */
+    display: flex;
+    align-items: center;
+  }
+  
+  .email-icon, .github-icon {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 24px; /* Adjust icon size */
+    color: #333; /* Icon color */
+  }
+  
+  .contact-form {
+    flex: 2; /* Allow form to take up more space */
+    display: flex;
+    flex-direction: column; /* Stack input fields vertically */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 15px; /* Space between input fields */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Increase font size for inputs */
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF; /* Button color */
+    color: white;
+    cursor: pointer;
+    font-size: 16px; /* Increase button font size */
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
